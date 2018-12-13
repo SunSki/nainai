@@ -1,0 +1,31 @@
+.make-event{
+    background: white;
+    border-radius: 10px;
+}
+.make-event-img{
+    display: block;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.input-info{
+    width: 260px;
+    margin-top: 10px;
+    border: none;
+    outline: 0;
+    border-bottom: 1px solid #d1d5db;
+}
+.underline {
+  width: 260px;
+  height: 2px;
+  background: skyBlue;
+  transform-origin: center center;
+  transform: scaleX(0);
+  transition: transform 0.18s ease-out;
+  margin-bottom: 20px;
+}
+.input-info:focus + .underline {
+    transform: scaleX(1);
+  }
